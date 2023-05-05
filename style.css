@@ -3,7 +3,8 @@ body {
 }
 header {
     background-color: #09bc8a;
-
+    border-color: #090c9b;
+    border-radius: 5px;
 }
 
 h1 {
