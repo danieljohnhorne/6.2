@@ -1,6 +1,6 @@
 @font-face {
     font-family: Gagalin;
-    src: url(Gagalin-Regular.otf);
+    src: url(fonts/Gagalin-Regular.otf);
 }
 
 .v-align{
@@ -58,15 +58,15 @@ h3 {
     text-align: center; 
     border-top: #09bc8a; 
     border-right: #09bc8a; 
-    background-color: #09bc8a
-    
+    background-color: #09bc8a;
+    text-decoration:none;
 }
 
 .header-box:first-of-type{
     margin: 0px;
 }
 
-.header-box:last-of-type {
+.header-box:last-child {
     border-right: 4px solid #090c9b;
 }
 
@@ -77,4 +77,21 @@ h3 {
     align-items: center;
     margin: 0;
     
+}
+
+.label {
+    height: 40px;
+    background-color: #09bc8a;
+    border: 4px solid #090c9b;
+    border-top: 0;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    border-left: none;
+    border-right: none;
+}
+
+.label h3 {
+    margin: 0;   
 }
