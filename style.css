@@ -95,3 +95,26 @@ h3 {
 .label h3 {
     margin: 0;   
 }
+
+.form-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.form-button-container button {
+    width: 50%;
+    height: 60px;
+    background-color: #09bc8a;
+    border: 2px outset;
+    border-color: #000000; 
+    
+}
+
+.form-button-container button:hover {
+    width: 50%;
+    height: 60px;
+    background-color: #ffffff;
+    border: 2px inset;
+    border-color: #09bc8a; 
+    
+}
