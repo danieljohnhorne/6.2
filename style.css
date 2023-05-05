@@ -40,6 +40,41 @@ h2 {
     font-size: 45px;
 }
 
+h3 {
+    color: #ffffff;
+    font-family:"Archivo Black", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
 #flip{
     transform: scaleX(-1);
+}
+
+.header-box {
+    margin: 0%;
+    width:33.3%;
+    height:55px;
+    border:4px solid #090c9b; 
+    text-align: center; 
+    border-top: #09bc8a; 
+    border-right: #09bc8a; 
+    background-color: #09bc8a
+    
+}
+
+.header-box:first-of-type{
+    margin: 0px;
+}
+
+.header-box:last-of-type {
+    border-right: 4px solid #090c9b;
+}
+
+.header-box h3 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
 }
