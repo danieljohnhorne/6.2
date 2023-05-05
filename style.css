@@ -19,6 +19,13 @@ header {
 
 }
 
+footer {
+    display: flex;
+    border: 3px solid #090c9b;
+    background-color: #09bc8a;
+    justify-content: flex-end;
+}
+
 h1 {
     color: #ffffff;
     font-family: Gagalin, Arial, Helvetica, sans-serif;
@@ -30,6 +37,7 @@ h1 {
 h2 {
     color: #000000;
     font-family:"Archivo Black", Arial, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 #flip{
