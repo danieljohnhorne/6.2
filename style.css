@@ -3,9 +3,16 @@
     src: url(Gagalin-Regular.otf);
 }
 
+.v-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 body {
     background-color: white;
 }
+
 header {
     border: 3px solid #090c9b;
     background-color: #09bc8a;
@@ -16,10 +23,15 @@ h1 {
     color: #ffffff;
     font-family: Gagalin, Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 55px;
+    font-size: 80px;
     font-weight: 80;
 }
+
 h2 {
     color: #090c9b;
     
+}
+
+#flip{
+    transform: scaleX(-1);
 }
