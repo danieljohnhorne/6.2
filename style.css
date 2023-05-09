@@ -79,7 +79,9 @@ h3 {
     
 }
 
+
 .label {
+    position: absolute;
     height: 40px;
     background-color: #09bc8a;
     border: 4px solid #090c9b;
@@ -90,6 +92,10 @@ h3 {
     clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
     border-left: none;
     border-right: none;
+}
+
+
+    
 }
 
 .label h3 {
@@ -133,3 +139,4 @@ h3 {
 .form-button-container button:hover::before, .form-button-container button:hover::after {
     background-image: url(/images/burger_chomped.png);
 }
+
