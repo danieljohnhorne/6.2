@@ -102,19 +102,34 @@ h3 {
 }
 
 .form-button-container button {
+    display: flex;
     width: 50%;
     height: 60px;
     background-color: #09bc8a;
-    border: 2px outset;
-    border-color: #000000; 
-    
+    border: 3px outset;
+    border-color: #000000;
+    justify-content: space-between; 
+    font-size: 50px;
+       
+}
+
+.form-button-container button::before,.form-button-container button::after {
+    content: "";
+    width: 50px;
+    height: 50px;
+    background-image: url(/images/burger.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .form-button-container button:hover {
-    width: 50%;
-    height: 60px;
     background-color: #ffffff;
-    border: 2px inset;
+    border: 3px inset;
     border-color: #09bc8a; 
-    
+    cursor: pointer; 
+}
+
+.form-button-container button:hover::before, .form-button-container button:hover::after {
+    background-image: url(/images/burger_chomped.png);
 }
