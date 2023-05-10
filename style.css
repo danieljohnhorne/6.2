@@ -142,6 +142,7 @@ h4 {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 20px;
 }
 
 .form-button-container button:hover {
