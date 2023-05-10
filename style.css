@@ -163,3 +163,17 @@ h4 {
     width: 200px;
     font-size: 30px;
 }
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+    border: 2px solid #000000;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
