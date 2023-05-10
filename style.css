@@ -120,6 +120,7 @@ h4 {
 .form-button-container {
     display: flex;
     justify-content: center;
+    margin-top: 38px;
 }
 
 .form-button-container button {
