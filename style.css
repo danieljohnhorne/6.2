@@ -38,10 +38,17 @@ h2 {
     color: #000000;
     font-family:"Archivo Black", Arial, Helvetica, sans-serif;
     font-size: 45px;
+    margin: 10px;
 }
 
 h3 {
     color: #ffffff;
+    font-family:"Archivo Black", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h4 {
+    color: #000000;
     font-family:"Archivo Black", Arial, Helvetica, sans-serif;
     font-size: 30px;
 }
@@ -81,12 +88,25 @@ h3 {
 
 
 .label {
-    height: 40px;
+    height: 45px;
+    background-color: #090c9b;
+    border: 4px solid #090c9b;
+    border-top: 0;
+    text-align: center;
+    width: 33.3%;
+    margin: 0 auto;
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
+    border-left: none;
+    border-right: none;
+}
+
+.labelsmall {
+    height: 45px;
     background-color: #09bc8a;
     border: 4px solid #090c9b;
     border-top: 0;
     text-align: center;
-    width: 75%;
+    width: 98.5%;
     margin: 0 auto;
     clip-path: polygon(0 0, 100% 0, 95% 100%, 5% 100%);
     border-left: none;
@@ -116,7 +136,7 @@ h3 {
 
 .form-button-container button::before,.form-button-container button::after {
     content: "";
-    width: 50px;
+    width: 350px;
     height: 50px;
     background-image: url(/images/burger.png);
     background-size: contain;
@@ -135,3 +155,9 @@ h3 {
     background-image: url(/images/burger_chomped.png);
 }
 
+.input-box {
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    height: 40px;
+    width: 200px;
+}
