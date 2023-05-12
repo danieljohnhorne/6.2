@@ -37,8 +37,10 @@ h1 {
 h2 {
     color: #000000;
     font-family:"Archivo Black", Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 55px;
     margin: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -51,6 +53,13 @@ h4 {
     color: #000000;
     font-family:"Archivo Black", Arial, Helvetica, sans-serif;
     font-size: 30px;
+}
+
+p {
+    color: #000000;
+    font-size: 45px;
+    margin: 10px;
+    font-family:"Archivo Black", Arial, Helvetica, sans-serif;
 }
 
 #flip{
