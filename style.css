@@ -16,7 +16,6 @@ body {
 header {
     border: 4px solid #090c9b;
     background-color: #09bc8a;
-
 }
 
 footer {
@@ -30,7 +29,7 @@ h1 {
     color: #ffffff;
     font-family: Gagalin, Arial, Helvetica, sans-serif;
     text-align: center;
-    font-size: 80px;
+    font-size: auto 600%;
     font-weight: 80;
 }
 
@@ -69,7 +68,7 @@ p {
 .header-box {
     margin: 0%;
     width:33.3%;
-    height:55px;
+    height:auto;
     border:4px solid #090c9b; 
     text-align: center; 
     border-top: #09bc8a; 
@@ -97,7 +96,7 @@ p {
 
 
 .label {
-    height: 45px;
+    height: auto;
     background-color: #090c9b;
     border: 4px solid #090c9b;
     border-top: 0;
@@ -110,7 +109,7 @@ p {
 }
 
 .labelsmall {
-    height: 45px;
+    height: auto;
     background-color: #09bc8a;
     border: 4px solid #090c9b;
     border-top: 0;
