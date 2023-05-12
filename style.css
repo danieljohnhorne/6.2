@@ -133,13 +133,13 @@ p {
 
 .form-button-container button {
     display: flex;
-    width: 50%;
-    height: 60px;
+    width: 40vw;
+    height: 4vw;
     background-color: #09bc8a;
     border: 3px outset;
     border-color: #000000;
     justify-content: space-between; 
-    font-size: 50px;
+    font-size: 3.3vw;
        
 }
 
