@@ -63,6 +63,10 @@ p {
     font-family:"Archivo Black", Arial, Helvetica, sans-serif;
 }
 
+textarea {
+    border: 2px solid black;
+ }
+
 #flip{
     transform: scaleX(-1);
 }
@@ -179,6 +183,7 @@ p {
     font-size: 30px;
     min-height: 2vw;
     min-width: 14vw;
+    height: fit-content;
 }
 
 /* map formatting */
@@ -196,3 +201,4 @@ p {
     top: 0;
     position: absolute;
 }
+
