@@ -25,6 +25,8 @@ footer {
     justify-content: flex-end;
 }
 
+/* text formatting */
+
 h1 {
     color: #ffffff;
     font-family: Gagalin, Arial, Helvetica, sans-serif;
@@ -65,6 +67,8 @@ p {
     transform: scaleX(-1);
 }
 
+/* header */
+
 .header-box {
     margin: 0%;
     width:33.3%;
@@ -94,6 +98,7 @@ p {
     
 }
 
+/* current webpage */
 
 .label {
     height: auto;
@@ -124,6 +129,8 @@ p {
 .label h3 {
     margin: 0;   
 }
+
+/* button for feedback form */
 
 .form-button-container {
     display: flex;
@@ -164,6 +171,8 @@ p {
     background-image: url(/images/burger_chomped.png);
 }
 
+/* input box for form */
+
 .input-box {
     background-color: #ffffff;
     border: 2px solid #000000;
@@ -171,6 +180,8 @@ p {
     width: 200px;
     font-size: 30px;
 }
+
+/* map formatting */
 
 .google-map {
     padding-bottom: 50%;
