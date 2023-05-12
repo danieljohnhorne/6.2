@@ -68,7 +68,7 @@ textarea {
     font-size: 30px;
     resize: vertical;
     min-height: 200px;
- }
+}
 
 #flip{
     transform: scaleX(-1);
