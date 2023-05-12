@@ -68,6 +68,7 @@ textarea {
     font-size: 30px;
     resize: vertical;
     min-height: 200px;
+    margin-top: 18px;
 }
 
 #flip{
