@@ -66,9 +66,9 @@ p {
 textarea {
     border: 2px solid black;
     font-size: 30px;
-    resize: vertical;
     min-height: 200px;
     margin-top: 18px;
+    max-width: 600px;
 }
 
 #flip{
