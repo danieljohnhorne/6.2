@@ -69,6 +69,7 @@ textarea {
     min-height: 200px;
     margin-top: 18px;
     max-width: 600px;
+    min-width: 300px;
 }
 
 #flip{
